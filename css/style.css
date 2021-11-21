@@ -63,6 +63,7 @@ width: 100%;
     align-items: center;
     overflow-wrap: normal ;
     margin-bottom: 1.6%;
+    display: none;
 }
 .about > .about-head{
     text-align: center;
@@ -85,6 +86,7 @@ width: 100%;
     align-items: center;
     overflow-wrap: normal;
     margin-bottom: 1.6%;
+    display: none;
 }
 
 .service > .service-head{
