@@ -17,7 +17,7 @@ display: grid;
 justify-content: center;
 align-items: center;
 margin: auto;
-background-image: url('images/topbg.jpg');
+background-image: url('images/pt3.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 margin-left: auto;
@@ -39,4 +39,50 @@ width: 100%;
     justify-self: center;
     width: auto;
     margin: auto;
+    font-size: 21px;
+}
+
+.about{
+    margin: auto;
+    padding: auto;
+    display: block;
+    align-items: center;
+    overflow-wrap: normal ;
+    margin-bottom: 1.6%;
+}
+.about > .about-head{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: 800;
+}
+
+.about > .about-body{
+    text-align: center;
+    font-size: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service{
+    margin: auto;
+    padding: auto;
+    display: block;
+    align-items: center;
+    overflow-wrap: normal;
+    margin-bottom: 1.6%;
+}
+
+.service > .service-head{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: 800;
+}
+
+.service > .service-body{
+    text-align: center;
+    font-size: 21px;
+    margin-left: auto;
+    margin-right: auto;
 }
