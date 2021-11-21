@@ -17,7 +17,7 @@ display: grid;
 justify-content: center;
 align-items: center;
 margin: auto;
-background-image: url('images/pt3.jpg');
+background-image: url('/images/backgrounds/h_img.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 margin-left: auto;
@@ -31,6 +31,12 @@ width: 100%;
     justify-self: center;
     width: auto;
     margin: auto;
+    color: #ffffff;
+}
+
+.welcome >.welcome-txt > h3{
+    font-size: 50px;
+    margin-bottom: 2.5%;
 }
 
 .welcome > .welcome-logo{
@@ -40,6 +46,14 @@ width: 100%;
     width: auto;
     margin: auto;
     font-size: 21px;
+}
+
+.welcome > .welcome-mouse{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    width: auto;
+    margin: auto;
 }
 
 .about{
