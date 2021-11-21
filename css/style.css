@@ -137,3 +137,19 @@ width: 100%;
 .what .container .row .col {
     text-align: justify;
 }
+
+.portfo .container .row{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portfo .portfo-heading h3{
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    text-align: center;
+}
