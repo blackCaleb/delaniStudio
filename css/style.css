@@ -114,3 +114,26 @@ width: 100%;
     font-weight: 700;
 }
 
+.what{
+    height: 30vh;
+    margin: auto;
+    padding: auto;
+    margin-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.what > .container > .what-heading h3{
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.what .container .row .col img{
+    display: block;
+    margin: 0 auto;
+}
+
+.what .container .row .col {
+    text-align: justify;
+}
