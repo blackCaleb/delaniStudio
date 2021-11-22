@@ -112,9 +112,9 @@ width: 100%;
 }
 
 
-.what .container .row .col{
+/* .what .container .row .col{
     text-align: justify;
-}
+} */
 
 .portfo .container .row{
     display: flex;
@@ -124,6 +124,10 @@ width: 100%;
     justify-items: center;
     align-items: center;
     justify-content: space-around;
+}
+
+.portfo .container .row .col img{
+    
 }
 
 .portfo .portfo-heading h3{
@@ -161,3 +165,4 @@ width: 100%;
     justify-content: center;
     display: flex;
 }
+
