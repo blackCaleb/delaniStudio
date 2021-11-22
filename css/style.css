@@ -68,6 +68,7 @@ width: 70%;
     overflow-wrap: normal ;
     margin-bottom: 1.6%;
     width: 70%;
+    font-size: 18px;
     /* display: none; */
 }
 .about > .about-head{
@@ -133,12 +134,8 @@ width: 70%;
     margin-bottom: 2.5%;
 }
 
-.what .container .row .col img{
-    display: block;
-    margin: 0 auto;
-}
 
-.what .container .row .col {
+.what .container .row .col{
     text-align: justify;
 }
 
