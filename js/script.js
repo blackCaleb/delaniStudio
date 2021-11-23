@@ -57,4 +57,9 @@ $(document).ready(function() {
       
   });
 
+  // received message alert
+  function myFunction(){
+    document.getElementById("alert").innerHTML = "We have successfully received your message."
+}
+
   });
