@@ -65,9 +65,12 @@ width: 100%;
     padding: auto;
     display: block;
     align-items: center;
+    justify-content: center;
     overflow-wrap: normal ;
-    margin-bottom: 1.6%;
+    margin-bottom: 2.3%;
+    padding-top: 4%;
     width: 100%;
+    height: 50vh;
 }
 .about > .about-head{
     text-align: center;
@@ -86,13 +89,12 @@ width: 100%;
 .services{
     margin: auto;
     padding: auto;
-    /* display: block; */
+    padding-top: 100px;
     text-align: center;
     color: #ffffff;
+    font-weight: 600;
     height: 60vh;
     width: 100%;
-    /* align-items: center;
-    overflow-wrap: normal; */
     background-image: url(/images/backgrounds/s_image.jpg);
 }
 
@@ -104,17 +106,25 @@ width: 100%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    margin-bottom: 2.5%;
 }
 
-.what > .container > .what-heading h3{
+.what  .container > .what-heading h3{
     text-align: center;
     margin-bottom: 2.5%;
 }
 
+.what .container #whatsec .design #text1{
+    display: none;
+}
 
-/* .what .container .row .col{
-    text-align: justify;
-} */
+.what .container #whatsec .development #text2{
+    display: none;
+}
+
+.what .container #whatsec .product #text3{
+    display: none;
+}
 
 .portfo .container .row{
     display: flex;
@@ -124,10 +134,7 @@ width: 100%;
     justify-items: center;
     align-items: center;
     justify-content: space-around;
-}
-
-.portfo .container .row .col img{
-    
+    cursor: pointer;
 }
 
 .portfo .portfo-heading h3{
@@ -136,11 +143,91 @@ width: 100%;
     text-align: center;
 }
 
+.portfo .container .row #col1 #txt1{
+    position: relative;
+    display: none;
+}
+
+.portfo .container .row #col2 #txt2{
+    position: relative;
+    display: none;
+    top: -50%;
+}
+
+.portfo .container .row #col3 #txt3{
+    position: relative;
+    display: none;
+    top: -50%;
+}
+
+.portfo .container .row #col4 #txt4{
+    position: relative;
+    display: none;
+    top: -50%;
+}
+
+.portfo .container .row #col5 #txt5{
+    position: relative;
+    display: none;
+    top: -50%;
+}
+
+.portfo .container .row #col6 #txt6{
+    position: relative;
+    display: none;
+    top: -50%;
+}
+
+.portfo .container .row #col7 #txt7{
+    display: none;
+    position: relative;
+    top: -50%;
+}
+
+.portfo .container .row #col8 #txt8{
+    position: relative;
+    display: none;
+    top: -30%;
+}
+
+.portfo .container .row #col1:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col2:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col3:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col4:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col5:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col6:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col7:hover{
+    opacity: 0.5;
+}
+
+.portfo .container .row #col8:hover{
+    opacity: 0.5;
+}
+
 .contactus{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     padding: 0;
+    padding-top: 1.5%;
     margin: 0;
     background-image: url(/images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
@@ -157,7 +244,7 @@ width: 100%;
     text-align: center;
     color: #ffffff;
     margin-top: 1.8%;
-    margin-bottom: 1%;
+    margin-bottom: 1.5%;
 } 
 
 .contactus .contactus-body{
@@ -166,3 +253,18 @@ width: 100%;
     display: flex;
 }
 
+.container .row .col-sm{
+    cursor: pointer;
+}
+
+#butt{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 3px 17px;
+    width: 12%;
+    justify-content: center;
+    margin-left: 45%;
+    color: #ffffff;
+}
