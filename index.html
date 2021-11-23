@@ -168,23 +168,22 @@
                         <div class="col-6">
                             <div class="p-3  bg-transparent">
                                 <div class="input-group flex-nowrap">
-                                    <input type="text" id="name" class="form-control bg-transparent" placeholder="Name..." name="name" required=" "/>
+                                    <input type="text" id="name" class="form-control bg-transparent" placeholder="Name..." name="name" required=" "aria-describedby="addon-wrapping"/>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="p-3  bg-transparent">
                                 <div class="input-group flex-nowrap">
-                                    <input type="email" id="email" required class="form-control bg-transparent" placeholder="Email..."  name="email" required=" "/>
+                                    <input type="email" id="email" required class="form-control bg-transparent" placeholder="Email..."  name="email" aria-describedby="addon-wrapping required="/>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="p-3  bg-transparent">
                                 <div class="input-group input-group-lg inputGroup-sizing-lg modal-xl flex-nowrap">
-                                    
-                                    <!-- <input type="text" height="500px" id="umessage" name="umessage"
-                                    required class="form-control bg-transparent" placeholder="Your message here..." aria-label="Username" aria-describedby="addon-wrapping"> -->
+                                    <textarea type="text" id="message"  name="message" class="form-control bg-transparent" required=" "aria-describedby="addon-wrapping"  placeholder="Your message here..." aria-label="Username"></textarea> 
+                                
                                 </div>
                             </div>
                         </div>
