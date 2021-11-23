@@ -106,7 +106,8 @@ width: 100%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 2.5%;
+    margin-bottom: 20px;
+    height: 60vh;
 }
 
 .what  .container > .what-heading h3{
@@ -114,7 +115,7 @@ width: 100%;
     margin-bottom: 2.5%;
 }
 
-.what .container #whatsec .design #text1{
+#text1{
     display: none;
 }
 
@@ -126,7 +127,7 @@ width: 100%;
     display: none;
 }
 
-.portfo .container .row{
+.portfo .row{
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -137,57 +138,78 @@ width: 100%;
     cursor: pointer;
 }
 
+.portfo .container .row .col{
+    margin-top: 20px;
+}
+
 .portfo .portfo-heading h3{
-    margin-top: 2%;
+    margin-top: 8%;
     margin-bottom: 1.5%;
     text-align: center;
 }
 
-.portfo .container .row #col1 #txt1{
+ #txt1{
     position: relative;
     display: none;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col2 #txt2{
+#txt2{
     position: relative;
     display: none;
-    top: -50%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col3 #txt3{
+#txt3{
     position: relative;
     display: none;
-    top: -50%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col4 #txt4{
+#txt4{
     position: relative;
     display: none;
-    top: -50%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col5 #txt5{
+#txt5{
     position: relative;
     display: none;
-    top: -50%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col6 #txt6{
+#txt6{
     position: relative;
     display: none;
-    top: -50%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col7 #txt7{
+#txt7{
     display: none;
     position: relative;
-    top: -50%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
-.portfo .container .row #col8 #txt8{
+#txt8{
     position: relative;
     display: none;
-    top: -30%;
+    margin-top: -100px;
+    color: #ffffff;
+    text-align: center;
 }
 
 .portfo .container .row #col1:hover{
