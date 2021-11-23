@@ -17,7 +17,7 @@ display: grid;
 justify-content: center;
 align-items: center;
 margin: auto;
-background-image: url("images/backgrounds/h_img.jpg");
+background-image: url("../images/backgrounds/h_img.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 margin-left: auto;
@@ -95,7 +95,7 @@ width: 100%;
     font-weight: 600;
     height: 60vh;
     width: 100%;
-    background-image: url("images/backgrounds/s_image.jpg");
+    background-image: url("../images/backgrounds/s_image.jpg");
 }
 
 .what{
@@ -229,7 +229,7 @@ width: 100%;
     padding: 0;
     padding-top: 1.5%;
     margin: 0;
-    background-image: url("images/backgrounds/c_image.jpg");
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
